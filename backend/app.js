@@ -9,7 +9,7 @@ const router = express.Router();
 config({ path: "./config.env" });
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://gymmernstack-frontend.onrender.com',
     methods: ["GET","POST","OPTIONS"],
     credentials: true,
   })
